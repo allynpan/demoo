@@ -9,7 +9,5 @@ public interface UserDao {
 
     int insert(UserDomain record);
 
-
-
     List<UserDomain> selectUsers();
 }
