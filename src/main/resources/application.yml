@@ -3,6 +3,9 @@ server:
 
 
 spring:
+# thymeleaf:
+#    prefix: classpath:/templates/
+
     datasource:
         name: mysql_test
         type: com.alibaba.druid.pool.DruidDataSource

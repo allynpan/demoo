@@ -7,6 +7,9 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
+
+
 /**
  * Created by Administrator on 2017/8/16.
  */
@@ -17,6 +20,7 @@ public class UserController {
 
     @Autowired
     private UserService userService;
+
 
     @ResponseBody
     @GetMapping("/get")

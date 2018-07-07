@@ -6,8 +6,9 @@ import java.util.List;
 
 public interface UserDao {
 
-
-    int insert(UserDomain record);
+    String searchByUserName(UserDomain user);
+    String searchByUserNameAndPassWord(UserDomain user);
+    String insert(UserDomain user);
 
     List<UserDomain> selectUsers();
 }
