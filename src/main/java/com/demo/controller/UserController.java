@@ -30,7 +30,7 @@ public class UserController {
 
     @ResponseBody
     @PostMapping("/add")
-    public int addUser(UserDomain user){
+    public String addUser(UserDomain user){
         return userService.addUser(user);
     }
 
